@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components'
 
 export const HistoryContainer = styled.main`
   flex: 1;
@@ -11,7 +11,7 @@ export const HistoryContainer = styled.main`
     font-size: 1.5rem;
     color: ${(props) => props.theme['gray-100']};
   }
-`;
+`
 
 export const HistoryList = styled.div`
   flex: 1;
@@ -59,7 +59,7 @@ export const HistoryList = styled.div`
       }
     }
   }
-`;
+`
 
 const STATUS_COLOR = {
   yellow: 'yellow-500',
@@ -83,4 +83,4 @@ export const Status = styled.span<StatusProps>`
     border-radius: 9999px;
     background: ${(props) => props.theme[STATUS_COLOR[props.statusColor]]};
   }
-`;
+`
